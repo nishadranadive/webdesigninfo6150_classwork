@@ -1,0 +1,8 @@
+<input #name type="text"/>
+
+<button class='btn btn-primary' (click)="onClick()">Call Message Emitter</button>
+
+<app-message [MsgReceiver]= name.value></app-message>
+
+
+
